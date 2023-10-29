@@ -113,3 +113,16 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: EditProfileForm.__init__() missing 1 required positional argument: 'original_username'
 2023-10-29 09:11:38,808 INFO: Microblog startup [in C:\Users\Kourosh\PycharmProjects\mymicroblog\app\__init__.py:47]
+2023-10-29 10:40:19,987 INFO: Microblog startup [in C:\Users\Kourosh\PycharmProjects\mymicroblog\app\__init__.py:47]
+2023-10-29 10:40:29,205 INFO: Microblog startup [in C:\Users\Kourosh\PycharmProjects\mymicroblog\app\__init__.py:47]
+2023-10-29 10:59:55,916 INFO: Microblog startup [in C:\Users\Kourosh\PycharmProjects\mymicroblog\app\__init__.py:47]
+2023-10-29 11:08:11,010 INFO: Microblog startup [in C:\Users\Kourosh\PycharmProjects\mymicroblog\app\__init__.py:47]
+2023-10-29 11:08:11,674 INFO: Microblog startup [in C:\Users\Kourosh\PycharmProjects\mymicroblog\app\__init__.py:47]
+2023-10-29 11:08:44,552 INFO: Microblog startup [in C:\Users\Kourosh\PycharmProjects\mymicroblog\app\__init__.py:47]
+2023-10-29 11:08:45,199 INFO: Microblog startup [in C:\Users\Kourosh\PycharmProjects\mymicroblog\app\__init__.py:47]
+2023-10-29 11:08:49,578 INFO: Microblog startup [in C:\Users\Kourosh\PycharmProjects\mymicroblog\app\__init__.py:47]
+2023-10-29 11:08:50,227 INFO: Microblog startup [in C:\Users\Kourosh\PycharmProjects\mymicroblog\app\__init__.py:47]
+2023-10-29 11:10:04,219 INFO: Microblog startup [in C:\Users\Kourosh\PycharmProjects\mymicroblog\app\__init__.py:47]
+2023-10-29 11:10:09,136 INFO: Microblog startup [in C:\Users\Kourosh\PycharmProjects\mymicroblog\app\__init__.py:47]
+2023-10-29 11:10:13,718 INFO: Microblog startup [in C:\Users\Kourosh\PycharmProjects\mymicroblog\app\__init__.py:47]
+2023-10-29 11:10:16,329 INFO: Microblog startup [in C:\Users\Kourosh\PycharmProjects\mymicroblog\app\__init__.py:47]
