@@ -48,6 +48,8 @@
 {% endblock %}
 {% block scripts %}
     {{ super() }}
+    {{ moment.include_moment() }}
+    {{ moment.lang(g.locale) }}
     <script>
         $(function () {
             var timer = null;
