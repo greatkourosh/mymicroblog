@@ -5,6 +5,7 @@ from flask_login import current_user, login_user, logout_user, login_required
 from flask_babel import _, get_locale
 from langdetect import LangDetectException, detect
 
+from app.main.forms import SearchForm
 # from app import db
 from app.forms import EditProfileForm, EmptyForm, PostForm
 from app.models import User, Post
