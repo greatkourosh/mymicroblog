@@ -70,12 +70,6 @@ class SearchForm(FlaskForm):
         super(SearchForm, self).__init__(*args, **kwargs)
 
 
-class MessageForm(FlaskForm):
-    message = TextAreaField(_l('Message'), validators=[
-        DataRequired(), Length(min=1, max=140)])
-    submit = SubmitField(_l('Submit'))
-
-
 class ResetPasswordRequestForm(FlaskForm):
     email = StringField('Email', validators=[DataRequired(), Email()])
     submit = SubmitField('Request Password Reset')
