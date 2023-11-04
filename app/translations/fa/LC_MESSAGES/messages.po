@@ -1,0 +1,264 @@
+# Persian translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-11-04 12:09+0330\n"
+"PO-Revision-Date: 2023-10-30 10:29+0330\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fa\n"
+"Language-Team: fa <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: app/__init__.py:27
+msgid "Please log in to access this page."
+msgstr ""
+
+#: app/auth/forms.py:36 app/forms.py:36 app/main/forms.py:10
+msgid "Username"
+msgstr ""
+
+#: app/auth/forms.py:37 app/forms.py:37 app/main/forms.py:11
+msgid "About me"
+msgstr ""
+
+#: app/auth/forms.py:49 app/forms.py:49 app/main/forms.py:23
+msgid "Please use a different username."
+msgstr ""
+
+#: app/auth/forms.py:57 app/forms.py:57 app/main/forms.py:31
+msgid "Say something"
+msgstr ""
+
+#: app/forms.py:63 app/main/forms.py:36 app/main/routes.py:156
+msgid "Search"
+msgstr ""
+
+#: app/main/routes.py:50 app/routes.py:49 app/templates/base.html:21
+msgid "Home"
+msgstr ""
+
+#: app/main/routes.py:66 app/routes.py:62 app/templates/base.html:22
+msgid "Explore"
+msgstr ""
+
+#: app/translate.py:10
+msgid "Error: the translation service is not configured."
+msgstr ""
+
+#: app/translate.py:19
+msgid "Error: the translation service failed."
+msgstr ""
+
+#: app/auth/forms.py:63 app/main/forms.py:47
+msgid "Message"
+msgstr ""
+
+#: app/auth/forms.py:65 app/main/forms.py:13 app/main/forms.py:32
+#: app/main/forms.py:49
+msgid "Submit"
+msgstr ""
+
+#: app/main/routes.py:40
+msgid "Your post is now live!"
+msgstr ""
+
+#: app/main/routes.py:96
+msgid "Your changes have been saved."
+msgstr ""
+
+#: app/main/routes.py:101 app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr ""
+
+#: app/main/routes.py:111 app/main/routes.py:131
+#, python-format
+msgid "User %(username)s not found."
+msgstr ""
+
+#: app/main/routes.py:114
+msgid "You cannot follow yourself!"
+msgstr ""
+
+#: app/main/routes.py:118
+#, python-format
+msgid "You are following %(username)s!"
+msgstr ""
+
+#: app/main/routes.py:134
+msgid "You cannot unfollow yourself!"
+msgstr ""
+
+#: app/main/routes.py:138
+#, python-format
+msgid "You are not following %(username)s."
+msgstr ""
+
+#: app/main/routes.py:178
+msgid "Your message has been sent."
+msgstr ""
+
+#: app/main/routes.py:180
+msgid "Send Message"
+msgstr ""
+
+#: app/main/routes.py:220
+msgid "An export task is currently in progress"
+msgstr ""
+
+#: app/main/routes.py:222
+msgid "Exporting posts..."
+msgstr ""
+
+#: app/templates/_post.html:25
+msgid "Translate"
+msgstr ""
+
+#: app/templates/base.html:4
+msgid "Welcome to Microblog"
+msgstr ""
+
+#: app/templates/base.html:35
+msgid "Login"
+msgstr ""
+
+#: app/templates/base.html:39 app/templates/messages.html:4
+msgid "Messages"
+msgstr ""
+
+#: app/templates/base.html:47
+msgid "Profile"
+msgstr ""
+
+#: app/templates/base.html:48
+msgid "Logout"
+msgstr ""
+
+#: app/templates/base.html:97
+msgid "Error: Could not contact server."
+msgstr ""
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr ""
+
+#: app/templates/index.html:26 app/templates/user.html:59
+msgid "Newer posts"
+msgstr ""
+
+#: app/templates/index.html:31 app/templates/user.html:64
+msgid "Older posts"
+msgstr ""
+
+#: app/templates/messages.html:12
+msgid "Newer messages"
+msgstr ""
+
+#: app/templates/messages.html:17
+msgid "Older messages"
+msgstr ""
+
+#: app/templates/search.html:4
+msgid "Search Results"
+msgstr ""
+
+#: app/templates/search.html:12
+msgid "Previous results"
+msgstr ""
+
+#: app/templates/search.html:17
+msgid "Next results"
+msgstr ""
+
+#: app/templates/send_message.html:5
+#, python-format
+msgid "Send Message to %(recipient)s"
+msgstr ""
+
+#: app/templates/user.html:8
+msgid "User"
+msgstr ""
+
+#: app/templates/user.html:11 app/templates/user_popup.html:11
+msgid "Last seen on"
+msgstr ""
+
+#: app/templates/user.html:13 app/templates/user_popup.html:14
+#, python-format
+msgid "%(count)d followers"
+msgstr ""
+
+#: app/templates/user.html:14 app/templates/user_popup.html:15
+#, python-format
+msgid "%(count)d following"
+msgstr ""
+
+#: app/templates/user.html:17
+msgid "Edit your profile"
+msgstr ""
+
+#: app/templates/user.html:22
+msgid "Export your posts"
+msgstr ""
+
+#: app/templates/user.html:30 app/templates/user_popup.html:23
+msgid "Follow"
+msgstr ""
+
+#: app/templates/user.html:37 app/templates/user_popup.html:32
+msgid "Unfollow"
+msgstr ""
+
+#: app/templates/user.html:45
+msgid "Send private message"
+msgstr ""
+
+#: app/templates/auth/login.html:5
+msgid "Sign In"
+msgstr ""
+
+#: app/templates/auth/login.html:30
+msgid "New User?"
+msgstr ""
+
+#: app/templates/auth/login.html:30
+msgid "Click to Register!"
+msgstr ""
+
+#: app/templates/auth/login.html:33
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: app/templates/auth/login.html:34
+msgid "Click to Reset It"
+msgstr ""
+
+#: app/templates/auth/register.html:5
+msgid "Register"
+msgstr ""
+
+#: app/templates/errors/404.html:4
+msgid "File Not Found"
+msgstr ""
+
+#: app/templates/errors/404.html:5 app/templates/errors/500.html:6
+msgid "Back"
+msgstr ""
+
+#: app/templates/errors/500.html:4
+msgid "An unexpected error has occurred"
+msgstr ""
+
+#: app/templates/errors/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr ""
+
